@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class NavigationMenuStepDefs {
-    @When("the user navigates to Fleet, Vehicles")
+    @When("the user navigates to Fleet,Vehicles")
     public void the_user_navigates_to_Fleet_Vehicles() {
         //selenium code
         System.out.println("the user navigates to Fleet, Vehicles");
@@ -25,18 +25,18 @@ public class NavigationMenuStepDefs {
 
     }
 
-    @Then("title should be Campaigns")
+    @Then("the title should be Campaigns")
     public void title_should_be_Campaigns() {
         System.out.println("Expected and Actual title are matching");
     }
 
-    @When("the user navigates to Activities, Calendar Events")
+    @When("the user navigates to Activities, Calender Events")
     public void the_user_navigates_to_Activities_Calendar_Events() {
         System.out.println("the user navigates to Activities, Calendar Events");
 
     }
 
-    @Then("title should be Calendars")
+    @Then("the title should be Calendars")
     public void title_should_be_Calendars() {
         System.out.println("Expected and Actual title are matching");
     }
@@ -58,7 +58,5 @@ public class NavigationMenuStepDefs {
     }
 
 
-    @When("the user navigates to {string}, {string}")
-    public void theUserNavigatesTo(String arg0, String arg1) {
-    }
+
 }
