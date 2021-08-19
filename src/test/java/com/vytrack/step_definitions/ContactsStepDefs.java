@@ -15,7 +15,7 @@ import java.util.Map;
 
 public class ContactsStepDefs {
 
-    @Given("the user logged in as {string}")
+    @When("the user logged in as {string}")
     public void the_user_logged_in_as(String userType) {
         //go to login page
         Driver.get().get(ConfigurationReader.get("url"));
